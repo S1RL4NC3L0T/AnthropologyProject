@@ -12,6 +12,7 @@ body {
 	height: 950px;
 	position: relative;
 	transition-duration: 1s;
+	-webkit-perspective: 1500px;
 	perspective: 1500;
 }
 
