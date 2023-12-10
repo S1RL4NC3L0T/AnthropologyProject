@@ -1,4 +1,5 @@
 @import url('https://fonts.cdnfonts.com/css/fonseca');
+@import url('https://fonts.cdnfonts.com/css/storytime-2');
 body {
 	font-family: "Poppin", sans-serif;
 	background-color: #2e3537;
@@ -12,7 +13,6 @@ body {
 	height: 950px;
 	position: relative;
 	transition-duration: 1s;
-	-webkit-perspective: 1500px;
 	perspective: 1500;
 }
 
@@ -63,6 +63,14 @@ input {
 .image {
 	opacity: 1;
 }
+.image2 {
+	display: flex;
+    flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+	height: 50%
+}
 
 
 .page {
@@ -91,7 +99,6 @@ input {
 	padding-left: 200px;
 }
 
-
 .front-page {
 	position: absolute;
 	width: 100%;
@@ -99,7 +106,6 @@ input {
 	align-items: center;
 	justify-content: center;
 	backface-visibility: hidden;
-	-webkit-backface-visibility: hidden;
 	box-sizing: border-box;
 	padding: 1rem;
 }
@@ -111,7 +117,6 @@ input {
 	align-items: center;
 	justify-content: center;
 	backface-visibility: hidden;
-	-webkit-backface-visibility: hidden;
 	z-index: 99;
 }
 .next, .prev {
